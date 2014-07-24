@@ -1,5 +1,5 @@
 {
-  "name": "organic-express-passportjs",
+  "name": "organic-express-passport",
   "version": "0.0.1",
   "description": "Organelle wrapper of passportjs",
   "main": "index.js",
