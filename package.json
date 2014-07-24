@@ -1,0 +1,32 @@
+{
+  "name": "organic-express-passportjs",
+  "version": "0.0.1",
+  "description": "Organelle wrapper of passportjs",
+  "main": "index.js",
+  "devDependencies": {
+    "mocha": "~1.21.0",
+    "mongoose": "~3.8.13",
+    "organic-plasma": "~0.0.3",
+    "chai": "~1.9.1",
+    "passport": "~0.2.0",
+    "passport-local-mongoose": "~0.3.0",
+    "passport-local": "~1.0.0",
+    "passport-facebook": "~1.0.3",
+    "passport-twitter": "~1.0.2",
+    "passport-github": "~0.1.5",
+    "passport-google": "~0.3.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Boris Filipov",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/outbounder/organic-express-passport.git"
+  },
+  "bugs": {
+    "url": "https://github.com/outbounder/organic-express-passport/issues"
+  },
+  "homepage": "https://github.com/outbounder/organic-express-passport"
+}
