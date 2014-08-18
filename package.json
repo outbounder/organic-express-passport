@@ -1,12 +1,15 @@
 {
   "name": "organic-express-passport",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Organelle wrapper of passportjs",
   "main": "index.js",
+  "peerDependencies": {
+    "passport": "0.2.x"
+  },
   "devDependencies": {
     "mocha": "~1.21.0",
     "mongoose": "~3.8.13",
-    "organic-plasma": "~0.0.3",
+    "organic-plasma": "~0.0.5",
     "chai": "~1.9.1",
     "passport": "~0.2.0",
     "passport-local-mongoose": "~0.3.0",
