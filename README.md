@@ -1,4 +1,4 @@
-# organic-express-passportjs
+# organic-express-passport
 
 Organelle wrapper of [passportjs](https://github.com/jaredhanson/passport)
 
@@ -37,13 +37,15 @@ Should be either `ExpressServer` chemical with [expected structure](https://gith
 
 ## example initPassport.js
 
-    var passport = require("passport")
-    var LocalStrategy = require('passport-local').Strategy;
-    var User = require("models/User")
+    module.exports = function(plasma, dna) {
+      var passport = require("passport")
+      var LocalStrategy = require('passport-local').Strategy;
+      var User = require("models/User")
 
-    passport.use(new LocalStrategy(User.authenticate()))
-    passport.serializeUser(User.serializeUser())
-    passport.deserializeUser(User.deserializeUser())
+      passport.use(new LocalStrategy(User.authenticate()))
+      passport.serializeUser(User.serializeUser())
+      passport.deserializeUser(User.deserializeUser())
+    }
 
 ## example User mongoose model
 
